@@ -8,6 +8,7 @@
     "deploy:bsctest": "npx hardhat run --network testnet scripts/deploy.ts",
     "deploy:bscmain": "npx hardhat run --network mainnet scripts/deploy.ts",
     "upgrade:bsctest": "npx hardhat run --network testnet scripts/upgradeFactory.ts",
+    "upgrade:bscmain": "npx hardhat run --network mainnet scripts/upgradeFactory.ts",
     "test": "npx hardhat test",
     "sol:prettier": "npx prettier --write ./contracts -l",
     "sol:linter": "solhint -f table ./contracts/**/*.sol -f table ./contracts/*.sol",

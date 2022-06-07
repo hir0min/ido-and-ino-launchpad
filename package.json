@@ -11,7 +11,8 @@
     "test": "npx hardhat test",
     "sol:prettier": "npx prettier --write ./contracts -l",
     "sol:linter": "solhint -f table ./contracts/**/*.sol -f table ./contracts/*.sol",
-    "ts:prettier": "npx prettier --write ./test/*.ts && npx prettier --write ./scripts/*.ts"
+    "ts:prettier": "npx prettier --write ./test/*.ts && npx prettier --write ./scripts/*.ts",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.0",
@@ -38,6 +39,7 @@
     "ethers": "^5.0.0",
     "hardhat": "^2.9.7",
     "hardhat-gas-reporter": "^1.0.4",
+    "husky": "^8.0.1",
     "prettier": "^2.3.2",
     "prettier-plugin-solidity": "^1.0.0-beta.13",
     "solhint": "^3.3.6",
